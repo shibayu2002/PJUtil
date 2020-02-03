@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<link rel="stylesheet" href="./css/pjutil.css?ver=1.0">
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type='text/javascript' src='./js/pjutil.js?ver=1.0'></script>
+<script>
+var pjloader = null;
+
+$(document).ready(function() {
+  pjloader = new PJLoader("この処理には１分ほど時間がかかります。暫くお待ちください。");
+  pjloader.speed = 700;
+});
+
+</script>
+<input type="button" value="startLoading" onclick="pjloader.start()">
+<input type="button" value="startLoading" onclick="pjloader.stop()">
+</html>

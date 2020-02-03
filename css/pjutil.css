@@ -1,0 +1,25 @@
+/* ローディング画像 */
+#pj_loading{
+  position:absolute;
+  left:50%;
+  top:50%;
+  width: 300px;
+  margin-left:-200px;
+  margin-top:-200px;
+  display:none;
+}
+
+/* ローディングテキスト */
+#pj_loading_text{
+  position:absolute;
+  left:0%;
+  top:50%;
+  width:100%;
+  margin-left:0px;
+  margin-top:-60px;
+  font-size: 25pt;
+  font-weight: 900;
+  color: #0000FF;
+  text-align: center;
+  display:none;
+}
