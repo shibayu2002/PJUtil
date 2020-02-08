@@ -32,7 +32,7 @@ PJHttp.prototype.url = null;  // URL
 PJHttp.prototype.responseType = "text";  // レスポンスType
 PJHttp.prototype.callback = null;  // コールバック関数(引数：response)
 PJHttp.prototype.callbackError = null;  // エラーコールバック関数(引数：status, statusText)
-PJHttp.prototype.loader = null;  // PJLoader
+PJHttp.prototype.loader = new PJLoader("暫くお待ちください。");  // PJLoader
 PJHttp.prototype.lockCheck = true;
 PJHttp.prototype.uploadEventListener = null;
 
